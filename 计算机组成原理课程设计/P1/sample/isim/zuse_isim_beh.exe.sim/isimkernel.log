@@ -1,0 +1,29 @@
+Command line:
+   zuse_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  4677
+
+Tue Oct 09 13:28:47 2018
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5334.59 Meg
+
+ Total Signals          : 13
+ Total Nets             : 13
+ Total Signal Drivers   : 5
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 8
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 96
+Total Line Count : 22
+
+ Total Simulation Time: 0.234375 sec
+
+ Current Memory Usage: 5177.3 Meg
+
+Tue Oct 09 13:32:05 2018
+

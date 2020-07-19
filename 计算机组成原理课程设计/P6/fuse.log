@@ -1,0 +1,71 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Computer/P6/mips_tb_isim_beh.exe" -prj "C:/Computer/P6/mips_tb_beh.prj" "work.mips_tb" "work.glbl" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Computer/P6/Zero.v" into library work
+Analyzing Verilog file "C:/Computer/P6/Src.v" into library work
+Analyzing Verilog file "C:/Computer/P6/PcBranch.v" into library work
+Analyzing Verilog file "C:/Computer/P6/pc.v" into library work
+Analyzing Verilog file "C:/Computer/P6/Pause.v" into library work
+Analyzing Verilog file "C:/Computer/P6/MWReg.v" into library work
+Analyzing Verilog file "C:/Computer/P6/mux.v" into library work
+Analyzing Verilog file "C:/Computer/P6/im.v" into library work
+Analyzing Verilog file "C:/Computer/P6/IfuReg.v" into library work
+Analyzing Verilog file "C:/Computer/P6/GrfReg.v" into library work
+Analyzing Verilog file "C:/Computer/P6/grf.v" into library work
+Analyzing Verilog file "C:/Computer/P6/ext.v" into library work
+Analyzing Verilog file "C:/Computer/P6/dm.v" into library work
+Analyzing Verilog file "C:/Computer/P6/Ctrl.v" into library work
+Analyzing Verilog file "C:/Computer/P6/AluReg.v" into library work
+Analyzing Verilog file "C:/Computer/P6/alu.v" into library work
+WARNING:HDLCompiler:327 - "C:/Computer/P6/alu.v" Line 113: Concatenation with unsized literal; will interpret as 32 bits
+Analyzing Verilog file "C:/Computer/P6/ADD4.v" into library work
+Analyzing Verilog file "C:/Computer/P6/mips.v" into library work
+WARNING:HDLCompiler:31 - "C:/Computer/P6/mips.v" Line 59: <Result_W> is already declared.
+WARNING:HDLCompiler:770 - "C:/Computer/P6/mips.v" Line 59: Second declaration of Result_W ignored
+WARNING:HDLCompiler:31 - "C:/Computer/P6/mips.v" Line 60: <WriteReg_W> is already declared.
+WARNING:HDLCompiler:770 - "C:/Computer/P6/mips.v" Line 60: Second declaration of WriteReg_W ignored
+WARNING:HDLCompiler:327 - "C:/Computer/P6/mips.v" Line 71: Concatenation with unsized literal; will interpret as 32 bits
+Analyzing Verilog file "C:/Computer/P6/mips_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:327 - "C:/Computer/P6/mips.v" Line 71: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:1016 - "C:/Computer/P6/mips.v" Line 159: Port In5_1 is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Computer/P6/mips.v" Line 200: Port Reset is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Computer/P6/mips.v" Line 257: Port In32_1 is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Computer/P6/mips.v" Line 264: Port In5_1 is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Computer/P6/mips.v" Line 309: Port In32_1 is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Computer/P6/mips.v" Line 315: Port In5_1 is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Computer/P6/mips.v" Line 322: Port Reset is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Computer/P6/mips.v" Line 380: Port Reset is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Computer/P6/mips.v" Line 404: Port In5_1 is not connected to this instance
+WARNING:HDLCompiler:327 - "C:/Computer/P6/alu.v" Line 113: Concatenation with unsized literal; will interpret as 32 bits
+Completed static elaboration
+Compiling module Im
+Compiling module Add4
+Compiling module Pc
+Compiling module FDReg
+Compiling module Ctrl
+Compiling module Grf
+Compiling module Ext
+Compiling module PcBranch
+Compiling module Mux
+Compiling module Src
+Compiling module Zero
+Compiling module DEReg
+Compiling module Alu
+Compiling module EMReg
+Compiling module DM
+Compiling module MWReg
+Compiling module Pause
+Compiling module mips
+Compiling module mips_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: 系统找不到指定的路径。, "isim\mips_tb_isim_beh.exe.sim\libPortability.dll".
+Compiled 20 Verilog Units
+Built simulation executable C:/Computer/P6/mips_tb_isim_beh.exe
+Fuse Memory Usage: 29024 KB
+Fuse CPU Usage: 624 ms

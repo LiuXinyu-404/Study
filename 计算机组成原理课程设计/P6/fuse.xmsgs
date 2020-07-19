@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="327" delta="unknown" >"C:/Computer/P6/alu.v" Line 113: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="31" delta="unknown" >"C:/Computer/P6/mips.v" Line 59: &lt;<arg fmt="%s" index="1">Result_W</arg>&gt; is already declared.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="770" delta="unknown" >"C:/Computer/P6/mips.v" Line 59: Second declaration of <arg fmt="%s" index="1">Result_W</arg> ignored
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="31" delta="unknown" >"C:/Computer/P6/mips.v" Line 60: &lt;<arg fmt="%s" index="1">WriteReg_W</arg>&gt; is already declared.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="770" delta="unknown" >"C:/Computer/P6/mips.v" Line 60: Second declaration of <arg fmt="%s" index="1">WriteReg_W</arg> ignored
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="327" delta="unknown" >"C:/Computer/P6/mips.v" Line 71: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="327" delta="unknown" >"C:/Computer/P6/mips.v" Line 71: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Computer/P6/mips.v" Line 159: Port <arg fmt="%s" index="1">In5_1</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Computer/P6/mips.v" Line 200: Port <arg fmt="%s" index="1">Reset</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Computer/P6/mips.v" Line 257: Port <arg fmt="%s" index="1">In32_1</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Computer/P6/mips.v" Line 264: Port <arg fmt="%s" index="1">In5_1</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Computer/P6/mips.v" Line 309: Port <arg fmt="%s" index="1">In32_1</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Computer/P6/mips.v" Line 315: Port <arg fmt="%s" index="1">In5_1</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Computer/P6/mips.v" Line 322: Port <arg fmt="%s" index="1">Reset</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Computer/P6/mips.v" Line 380: Port <arg fmt="%s" index="1">Reset</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Computer/P6/mips.v" Line 404: Port <arg fmt="%s" index="1">In5_1</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="327" delta="unknown" >"C:/Computer/P6/alu.v" Line 113: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="Simulator" num="0" delta="unknown" >Unable to copy libPortabilityNOSH.dll to the simulation executable directory: <arg fmt="%s" index="1">boost::filesystem::copy_file: ￏﾵￍﾳￕￒﾲﾻﾵﾽￖﾸﾶﾨﾵￄￂﾷﾾﾶﾡﾣ, &quot;isim\mips_tb_isim_beh.exe.sim\libPortability.dll&quot;</arg>.
+</msg>
+
+</messages>
+

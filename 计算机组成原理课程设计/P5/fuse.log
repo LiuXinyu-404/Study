@@ -1,0 +1,68 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Computer/P5/mips_tb_isim_beh.exe" -prj "C:/Computer/P5/mips_tb_beh.prj" "work.mips_tb" "work.glbl" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Computer/P5/Zero.v" into library work
+Analyzing Verilog file "C:/Computer/P5/Src.v" into library work
+Analyzing Verilog file "C:/Computer/P5/PcBranch.v" into library work
+Analyzing Verilog file "C:/Computer/P5/pc.v" into library work
+Analyzing Verilog file "C:/Computer/P5/Pause.v" into library work
+Analyzing Verilog file "C:/Computer/P5/MWReg.v" into library work
+Analyzing Verilog file "C:/Computer/P5/mux.v" into library work
+Analyzing Verilog file "C:/Computer/P5/im.v" into library work
+Analyzing Verilog file "C:/Computer/P5/IfuReg.v" into library work
+Analyzing Verilog file "C:/Computer/P5/GrfReg.v" into library work
+Analyzing Verilog file "C:/Computer/P5/grf.v" into library work
+Analyzing Verilog file "C:/Computer/P5/ext.v" into library work
+Analyzing Verilog file "C:/Computer/P5/dm.v" into library work
+Analyzing Verilog file "C:/Computer/P5/Ctrl.v" into library work
+Analyzing Verilog file "C:/Computer/P5/AluReg.v" into library work
+Analyzing Verilog file "C:/Computer/P5/alu.v" into library work
+Analyzing Verilog file "C:/Computer/P5/add4.v" into library work
+Analyzing Verilog file "C:/Computer/P5/mips.v" into library work
+WARNING:HDLCompiler:31 - "C:/Computer/P5/mips.v" Line 58: <Result_W> is already declared.
+WARNING:HDLCompiler:770 - "C:/Computer/P5/mips.v" Line 58: Second declaration of Result_W ignored
+WARNING:HDLCompiler:31 - "C:/Computer/P5/mips.v" Line 59: <WriteReg_W> is already declared.
+WARNING:HDLCompiler:770 - "C:/Computer/P5/mips.v" Line 59: Second declaration of WriteReg_W ignored
+WARNING:HDLCompiler:327 - "C:/Computer/P5/mips.v" Line 70: Concatenation with unsized literal; will interpret as 32 bits
+Analyzing Verilog file "C:/Computer/P5/mips_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:327 - "C:/Computer/P5/mips.v" Line 70: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:1016 - "C:/Computer/P5/mips.v" Line 152: Port In5_1 is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Computer/P5/mips.v" Line 192: Port Reset is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Computer/P5/mips.v" Line 245: Port In32_1 is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Computer/P5/mips.v" Line 252: Port In5_1 is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Computer/P5/mips.v" Line 296: Port In32_1 is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Computer/P5/mips.v" Line 302: Port In5_1 is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Computer/P5/mips.v" Line 309: Port Reset is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Computer/P5/mips.v" Line 364: Port Reset is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Computer/P5/mips.v" Line 390: Port In5_1 is not connected to this instance
+Completed static elaboration
+Compiling module Im
+Compiling module Add4
+Compiling module Pc
+Compiling module FDReg
+Compiling module Ctrl
+Compiling module Grf
+Compiling module Ext
+Compiling module PcBranch
+Compiling module Mux
+Compiling module Src
+Compiling module Zero
+Compiling module DEReg
+Compiling module Alu
+Compiling module EMReg
+Compiling module DM
+Compiling module MWReg
+Compiling module Pause
+Compiling module mips
+Compiling module mips_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: 系统找不到指定的路径。, "isim\mips_tb_isim_beh.exe.sim\libPortability.dll".
+Compiled 20 Verilog Units
+Built simulation executable C:/Computer/P5/mips_tb_isim_beh.exe
+Fuse Memory Usage: 28580 KB
+Fuse CPU Usage: 718 ms

@@ -1,0 +1,91 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Computer/P5/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.72 secs
+ 
+--> Parameter xsthdpdir set to C:/Computer/P5/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.72 secs
+ 
+--> Reading design: Mips.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Computer\P5\Zero.v" into library work
+Parsing module <Zero>.
+Analyzing Verilog file "C:\Computer\P5\Src.v" into library work
+Parsing module <Src>.
+Analyzing Verilog file "C:\Computer\P5\PcBranch.v" into library work
+Parsing module <PcBranch>.
+Analyzing Verilog file "C:\Computer\P5\pc.v" into library work
+Parsing module <Pc>.
+Analyzing Verilog file "C:\Computer\P5\Pause.v" into library work
+Parsing module <Pause>.
+Analyzing Verilog file "C:\Computer\P5\MWReg.v" into library work
+Parsing module <MWReg>.
+Analyzing Verilog file "C:\Computer\P5\mux.v" into library work
+Parsing module <Mux>.
+Analyzing Verilog file "C:\Computer\P5\im.v" into library work
+Parsing module <Im>.
+Analyzing Verilog file "C:\Computer\P5\IfuReg.v" into library work
+Parsing module <FDReg>.
+Analyzing Verilog file "C:\Computer\P5\GrfReg.v" into library work
+Parsing module <DEReg>.
+Analyzing Verilog file "C:\Computer\P5\grf.v" into library work
+Parsing module <Grf>.
+Analyzing Verilog file "C:\Computer\P5\ext.v" into library work
+Parsing module <Ext>.
+Analyzing Verilog file "C:\Computer\P5\dm.v" into library work
+Parsing module <DM>.
+Analyzing Verilog file "C:\Computer\P5\Ctrl.v" into library work
+Parsing module <Ctrl>.
+Analyzing Verilog file "C:\Computer\P5\AluReg.v" into library work
+Parsing module <EMReg>.
+Analyzing Verilog file "C:\Computer\P5\alu.v" into library work
+Parsing module <Alu>.
+Analyzing Verilog file "C:\Computer\P5\add4.v" into library work
+Parsing module <Add4>.
+Analyzing Verilog file "C:\Computer\P5\mips.v" into library work
+Parsing module <mips>.
+WARNING:HDLCompiler:327 - "C:\Computer\P5\mips.v" Line 70: Concatenation with unsized literal; will interpret as 32 bits
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.52 secs
+ 
+--> 
+
+Total memory usage is 4484244 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

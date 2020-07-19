@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "E:/Verliog/sample/adder1.xst" -ofn "E:/Verliog/sample/adder1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 adder1.ngc adder1.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o adder1_map.ncd adder1.ngd adder1.pcf 

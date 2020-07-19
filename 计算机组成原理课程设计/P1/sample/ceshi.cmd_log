@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "E:/Verliog/sample/ceshi.xst" -ofn "E:/Verliog/sample/ceshi.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 ceshi.ngc ceshi.ngd  
+netgen -intstyle ise -insert_glbl true -w -dir netgen/translate -ofmt verilog -sim ceshi.ngd ceshi_translate.v 
